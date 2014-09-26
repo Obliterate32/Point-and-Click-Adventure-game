@@ -26,5 +26,24 @@ namespace Point_and_Click_Adventure_game
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Inventory_Click(object sender, EventArgs e)
+        {
+            //Opens the Inventory
+            Form2 f2 = new Form2();
+            f2.ShowDialog(); // Shows Form2
+        }
+
+        private void drawer_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.ShowDialog(); // Shows Form3
+        }
     }
 }
+
